@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body, html, #root,.app,.app-container {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+
+}
+
+.button {
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: 300;
+    padding: 10px 30px;
+    border-radius: 4px;
+    margin: 10px;
+    font-family: Poppins;
+
+    &.white {
+        background: white;
+        color: #00ad9f;
+    }
+
+    &.primary {
+        background: #00ad9f;
+        color: white;
+    }
+}
