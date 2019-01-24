@@ -1,0 +1,72 @@
+.footer {
+    color: rgba(14,30,37,.38);
+    font-size: .85rem;
+    padding-bottom: 2.618em;
+    text-align: center;
+    position: relative;
+
+    background: white;
+
+    .footer-container {
+        padding: 25px;
+        min-height: inherit;
+
+        h1 {
+            margin: 0;
+            margin: 35px 0;
+            font-size: 3em;
+            color: #0e1e25;
+            opacity: 0.7;
+        }
+    
+        .copyright {
+            font-size: 14px;
+            display: block;
+        }
+
+        .icon {
+            display: inline-block;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            img {
+                width: 35px;
+            }
+        }
+
+        a {
+            font-family: Poppins;
+            text-decoration: none;
+            font-size: 1.2em;
+            color: #0e1e25;
+            display: block;
+            font-weight: 400;
+            opacity: .54;
+            white-space: nowrap;
+            
+            transition: opacity 0.2s;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+
+        .navigation {
+            margin: 1em auto 0;
+            max-width: 500px;
+            display: flex;
+            justify-content: space-between;
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+    
+                flex: 1;
+                margin-bottom: 0;
+    
+                line-height: 2;
+                margin: 1em 0;
+            }
+        }
+    }
+
+}
