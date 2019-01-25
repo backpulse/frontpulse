@@ -55,7 +55,7 @@ class Home extends React.Component {
 
                         <div className="price-box pro">
                             <div className="title">
-                                <h2>Professional</h2>
+                                <h2>{strings.PROFESSIONAL}</h2>
                             </div>
                             <div className="divider"/>
                             <div className="description">
