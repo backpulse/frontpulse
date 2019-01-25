@@ -15,11 +15,23 @@ const strings = {
         "MENU_HELP": "Aide",
 
         "FOOTER_FEATURES": "Fonctionnalitées",
+        "FOOTER_REGISTER": "S'inscrire",
         "FOOTER_PRICING": "Prix",
-        "FOOTER_ABOUT": "A propos",
-        "FOOTER_TERMS": "Conditions d'Utilisation",
-        "FOOTER_PRIVACY": "Politique de Confidentialité",
-        "FOOTER_CONTACT": "Contact"
+        "FOOTER_ABOUT": "À propos",
+        "FOOTER_TERMS": "C.G.U",
+        "FOOTER_PRIVACY": "Confidentialité",
+        "FOOTER_CONTACT": "Contact",
+
+        "UNLIMITED_SITES": "Sites illimités",
+        "API_ACCESS": "Accès à l'API non réstreint",
+        "DARK_THEME": "Thème sombre",
+        "FREE_STORAGE": "500 Mo /site",
+        "PAID_STORAGE": "10 Go /site",
+        "FREE_ACCOUNTS": "1 compte par site",
+        "PAID_ACCOUNTS": "5 comptes par site",
+        "PERSONAL": "Personnel",
+        "PROFESSIONAL": "Professionel",
+        "PER_MONTH": "par mois"
 
     },
     en: {
@@ -36,9 +48,21 @@ const strings = {
         "FOOTER_FEATURES": "Features",
         "FOOTER_PRICING": "Pricing",
         "FOOTER_ABOUT": "About",
+        "FOOTER_REGISTER": "Sign up",
         "FOOTER_TERMS": "Terms of Service",
         "FOOTER_PRIVACY": "Privacy Policy",
-        "FOOTER_CONTACT": "Contact"
+        "FOOTER_CONTACT": "Contact",
+        "UNLIMITED_SITES": "Unlimited sites",
+        "API_ACCESS": "Unrestricted API Access",
+        "DARK_THEME": "Dark theme",
+        "FREE_STORAGE": "500 Mo /site",
+        "PAID_STORAGE": "10 Go /site",
+        "FREE_ACCOUNTS": "1 account per site",
+        "PAID_ACCOUNTS": "5 accounts per site",
+        "PERSONAL": "Personal",
+        "PROFESSIONAL": "Professional",
+        "PER_MONTH": "per month"
+
     }
 };
 

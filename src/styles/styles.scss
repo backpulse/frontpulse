@@ -12,6 +12,15 @@ body, html, #root,.app,.app-container {
     font-weight: 300;
 }
 
+
+                
+h1, h2 {
+    font-size: 3em;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+}
+
 .button {
     font-size: 1em;
     text-decoration: none;
@@ -30,4 +39,8 @@ body, html, #root,.app,.app-container {
         background: #00ad9f;
         color: white;
     }
+}
+
+.divider {
+    border-bottom: 1px solid #e4eaeccc;
 }

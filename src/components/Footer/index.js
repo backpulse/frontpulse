@@ -34,7 +34,7 @@ class Footer extends React.Component {
                             </li>
                             <li>
                                 <a rel="noopener noreferrer" href="https://dashboard.backpulse.io/signup">
-                                    {strings.SIGNUP}
+                                    {strings.FOOTER_REGISTER}
                                 </a>
                             </li>
                             <li>
