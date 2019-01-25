@@ -3,18 +3,82 @@
 
     position: relative;
     color: #00ad9f;
-    
+
     .home-fragment {
         display: flex;
         height: 100vh;
+        position: relative;
+
         .computer {
             width: 650px;
             position: absolute;
             right: 20%;
-            top: 400px;
+            top: 425px;
             z-index: 99;
         }
-        
+
+        @media screen and(max-width: 1440px) {
+            .computer {
+                width: 450px;
+            }
+        }
+
+        @media screen and(max-width: 1220px) {
+            justify-content: center;
+
+            .computer {
+                position: absolute;
+                top: unset;
+                right: unset;
+                bottom: 50px;
+
+            }
+
+            .rectangle {
+                width: 150%;
+                background-image: none !important;
+                background-color: #0e1e25;
+                background-size: 110% !important;
+            }
+
+            .top-right-rect {
+                display: none;
+            }
+
+            .content {
+                width: 90% !important;
+                margin-top: 18% !important;
+
+                .content-inside {
+                    padding: 50px 50px;
+                    border-radius: 8px;
+                    background: #00ad9f;
+
+                    .signup {
+                        background-color: #0e1e25;
+                    }
+                }
+            }
+        }
+
+        @media screen and(max-width: 700px) {
+            align-items: center;
+
+            .content {
+                margin-top: 0 !important;
+            }
+
+            .computer {
+                display: none;
+            }
+        }
+
+        @media screen and (max-width: 320px) {
+            .content-inside {
+                padding: 25px 25px!important;
+            }
+        }
+
         .top-right-rect {
             background-image: url("../../assets/rect2.png");
             background-repeat: no-repeat;
@@ -25,50 +89,85 @@
             right: 0;
             width: 37%;
         }
-    
+
         .rectangle {
             background-image: url("../../assets/rect.png");
             min-height: inherit;
-            
+
             background-repeat: no-repeat;
-            
+
             background-size: 100%;
             display: flex;
-            
+
             color: white;
             width: 900px;
             position: relative;
             z-index: 1;
             justify-content: center;
-    
-            
+
+
             .content {
                 width: 60%;
                 justify-content: center;
                 margin-top: 30%;
-    
+
                 p {
-                    
-                font-family: Poppins;
+
+                    text-align: justify;
+                    font-family: Poppins;
                 }
+
                 p,
                 h2 {
                     z-index: 22;
                 }
-    
+
                 div {
                     margin-top: 30px;
+
                     .signup {
                         margin: 0;
                     }
                 }
             }
-    
+
         }
     }
 
     .pricing-fragment {
         height: 100vh;
+
+        @media screen and (max-width: 1050px) {
+            .price-box {
+                margin: 15px !important;
+            }
+        }
+
+        @media screen and (max-width: 888px) {
+            min-height: 100vh;
+            padding-bottom: 50px;
+            height: unset;
+
+            h1 {
+                position: relative !important;
+            }
+
+            .prices {
+                margin-top: 25px;
+                flex-direction: column;
+
+                .price-box {
+                    margin: 25px !important;
+                }
+            }
+        }
+
+        @media screen and (max-width: 550px) {
+            .price-box {
+                width: 90% !important;
+            }
+        }
+
         h1 {
             text-align: center;
             margin-top: 25px;
@@ -77,11 +176,13 @@
             left: 0;
             color: white;
         }
+
         .prices {
             display: flex;
             align-items: center;
             height: 100%;
             justify-content: center;
+
             .price-box {
                 margin: 50px;
                 height: 550px;
@@ -99,6 +200,7 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+
                     .button {
                         margin: 0;
                         width: 90%;
@@ -117,15 +219,18 @@
                         margin: 15px;
                     }
                 }
+
                 .description {
                     ul {
                         padding: 0 50px;
                         margin: 0;
                         margin-top: 15px;
+
                         li {
                             padding: 15px;
                             font-family: Poppins;
                         }
+
                         margin-bottom: 15px;
                     }
                 }
@@ -141,6 +246,7 @@
                     // width: 450px;
                     background: #00ad9f;
                     color: white;
+
                     .divider {
                         border-bottom: 1px solid #e4eaec59;
                     }
