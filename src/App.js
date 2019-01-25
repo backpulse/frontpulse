@@ -4,6 +4,7 @@ import {Router} from 'preact-router';
 
 import Navbar from 'components/Navbar';
 import Home from 'pages/Home';
+import Verify from 'pages/Verify';
 
 class App extends React.Component {
 	render() {
@@ -11,7 +12,8 @@ class App extends React.Component {
 			<div className="app">
 				<Navbar/>
 				<Router onChange={this.onRouteChange}>
-					<Home path="/"/>
+					<Home exact path="/"/>
+					<Verify exact path="/verify/:id"/>
 				</Router>
 			</div>
 		);
