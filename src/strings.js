@@ -39,7 +39,7 @@ const strings = {
         "SIGNUP": "Sign up",
         
         "HOME_TITLE": "Let us do the hard work",
-        "HOME_DESCRIPTION": "Backpulse lets you build you own website, without having to care about the content administration.",
+        "HOME_DESCRIPTION": "Backpulse lets you build you own website, without worrying about the content administration.",
         "GET_STARTED": "Get started!",
 
         "MENU_DOCUMENTATION": "Docs",
