@@ -4,6 +4,8 @@ import {Link} from 'preact-router';
 
 import './styles.scss';
 
+import Logo from 'assets/logo.png';
+
 import strings from 'strings';
 
 class Navbar extends React.Component {
@@ -48,6 +50,7 @@ class Navbar extends React.Component {
                     </ul>
                 </div>}
                 <div className="navbar">
+                    <img src={Logo}/>
                     <h1 className="logo">Backpulse</h1>
                     <ul>
                         <li>

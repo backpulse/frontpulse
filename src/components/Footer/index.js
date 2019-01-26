@@ -6,6 +6,8 @@ import strings from 'strings';
 
 import {Link} from 'preact-router';
 
+import Logo from 'assets/logo.png';
+
 import GitHubIcon from 'assets/icons/github.svg';
 
 class Footer extends React.Component {
@@ -13,6 +15,7 @@ class Footer extends React.Component {
         return (
             <div className="footer">
                 <div className="footer-container">
+                    <img className="logo" src={Logo}/>
                     <h1 className="logo">Backpulse</h1>
                     <div className="navigation">
                         <ul>
