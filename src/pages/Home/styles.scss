@@ -239,6 +239,10 @@
                     margin: 0 auto;
                     text-align: center;
                     height: max-content;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
                 }
 
                 &.pro {
