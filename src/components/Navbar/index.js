@@ -50,8 +50,10 @@ class Navbar extends React.Component {
                     </ul>
                 </div>}
                 <div className="navbar">
-                    <img src={Logo}/>
-                    <h1 className="logo">Backpulse</h1>
+                    <Link className="logo-container" href="/">
+                        <img src={Logo}/>
+                        <h1 className="logo">Backpulse</h1>
+                    </Link>
                     <ul>
                         <li>
                             <a rel="noopener noreferrer" target="_blank" href="https://docs.backpulse.io">

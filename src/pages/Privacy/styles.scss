@@ -1,0 +1,28 @@
+.page.privacy {
+    background: #0e1e25;
+
+    position: relative;
+    
+    .content {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    
+        h1,h2 {
+            color: #00ad9f;
+            font-weight: 300;
+        }
+
+        p {
+            color: white;
+        }
+        a {
+            text-decoration: none;
+            color: #00ad9f;
+            font-weight: bold;
+        }
+    }
+
+
+}

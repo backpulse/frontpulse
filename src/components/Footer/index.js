@@ -23,10 +23,10 @@ class Footer extends React.Component {
                                 <a rel="noopener noreferrer" href="https://docs.backpulse.io" target="_blank">{strings.MENU_DOCUMENTATION}</a>
                             </li>
                             <li>
-                                <Link href="/features">{strings.FOOTER_FEATURES}</Link>
+                                <a href="#features">{strings.FOOTER_FEATURES}</a>
                             </li>
                             <li>
-                                <Link href="/pricing">{strings.FOOTER_PRICING}</Link>
+                                <a href="#pricing">{strings.FOOTER_PRICING}</a>
                             </li>
                         </ul>
                         <ul>

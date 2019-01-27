@@ -9,6 +9,15 @@
         margin-right: 25px;
     }
 
+    .logo-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        text-decoration: none;
+        color: white;
+    }
+
     @media screen and(max-width: 500px) {
         img {
             width: 50px;

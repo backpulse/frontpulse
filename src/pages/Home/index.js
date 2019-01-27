@@ -27,7 +27,7 @@ class Home extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div className="pricing-fragment">
+                <div className="pricing-fragment" id="pricing">
                     <h1>Pricing</h1>
                     <div className="prices">
                         <div className="price-box">
