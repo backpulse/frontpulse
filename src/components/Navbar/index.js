@@ -32,14 +32,19 @@ class Navbar extends React.Component {
                             </a>
                         </li>
                         <li>
-                            <Link onClick={this.toggleMenu} href="/pricing">
-                                {strings.MENU_PRICING}
-                            </Link>
+                            <a onClick={this.toggleMenu} href="#features">
+                                {strings.FEATURES}
+                            </a>
                         </li>
                         <li>
-                            <Link onClick={this.toggleMenu} href="/help">
+                            <a onClick={this.toggleMenu} href="#pricing">
+                                {strings.MENU_PRICING}
+                            </a>
+                        </li>
+                        <li>
+                            <a onClick={this.toggleMenu} href="mailto:contact@backpulse.io">
                                 {strings.MENU_HELP}
-                            </Link>
+                            </a>
                         </li>
                         <li>
                             <a className="white button" href="https://dashboard.backpulse.io/login">{strings.LOGIN}</a>
@@ -61,14 +66,19 @@ class Navbar extends React.Component {
                             </a>
                         </li>
                         <li>
-                            <Link href="/pricing">
-                                {strings.MENU_PRICING}
-                            </Link>
+                            <a href="#features">
+                                {strings.FEATURES}
+                            </a>
                         </li>
                         <li>
-                            <Link href="/help">
+                            <a href="#pricing">
+                                {strings.MENU_PRICING}
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:contact@backpulse.io">
                                 {strings.MENU_HELP}
-                            </Link>
+                            </a>
                         </li>
                     </ul>
                     <div className="right">

@@ -42,7 +42,7 @@ class Home extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div className="why-fragment" id="why">
+                <div className="why-fragment" id="features">
                     <h1 className="tracking-in-expand section-title">{strings.WHY_BACKPULSE}</h1>
                     <div className="reasons">
                         <div className="reason">
