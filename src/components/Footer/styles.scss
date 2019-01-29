@@ -61,6 +61,10 @@
             max-width: 500px;
             display: flex;
             justify-content: space-between;
+
+            @media screen and(max-width: 550px) {
+                flex-direction: column;
+            }
             ul {
                 list-style: none;
                 padding: 0;

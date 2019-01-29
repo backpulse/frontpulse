@@ -52,7 +52,7 @@ class Navbar extends React.Component {
                 <div className="navbar">
                     <Link className="logo-container" href="/">
                         <img src={Logo}/>
-                        <h1 className="logo">Backpulse</h1>
+                        <h1 className="logo tracking-in-expand">Backpulse</h1>
                     </Link>
                     <ul>
                         <li>
