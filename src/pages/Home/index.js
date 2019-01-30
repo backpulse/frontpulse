@@ -84,7 +84,7 @@ class Home extends React.Component {
                     </div>
                 </div>
                 <div className="pricing-fragment" id="pricing">
-                    <h1 className="tracking-in-expand section-title">{strings.PRICING}</h1>
+                    <h1 className="tracking-in-expand section-title">{strings.MENU_PRICING}</h1>
                     <div className="prices">
                         <div className="price-box">
                             <div className="title">
