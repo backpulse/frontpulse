@@ -26,7 +26,7 @@ const strings = {
         "FREE_STORAGE": "500 Mo par site",
         "PAID_STORAGE": "5 Go par site",
         "FREE_ACCOUNTS": "1 contributeur additionnel par site",
-        "PAID_ACCOUNTS": "5 contributeurs additionnels par site",
+        "PAID_ACCOUNTS": "5 contributeurs par site",
         "PERSONAL": "Personnel",
         "PROFESSIONAL": "Professionel",
         "PER_MONTH": "par mois",
